@@ -80,11 +80,6 @@ body
 	max-height: 110px !important;
 }
 
-#pubList tr td:first-child{
-  width: 120px;
-  height: 80px;
-  text-align: center;
-}
 #pubList tr td:last-child{
   padding-left: 20px;
 }
@@ -92,6 +87,24 @@ body
   max-width: 120px !important;
   max-height: 80px !important; 
 }
+
+
+#pubList2 tr td:first-child{
+  width: 120px;
+  height: 80px;
+  text-align: center;
+}
+#pubList2 tr td:last-child{
+  padding-left: 20px;
+}
+#pubList2 tr td img{
+  max-width: 120px !important;
+  max-height: 80px !important; 
+}
+
+
+
+
 
 a:visited, a:link {
 	text-decoration: none;
