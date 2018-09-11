@@ -18,10 +18,10 @@
     <td align="left">
         <h1> Biwei Xie (解壁伟)</h1>
         <p>
-        office at 1011F<br>
-        Center for Advanced Computer Systems<br>
-        Institute of Computing Technology, Chinese Academy of Sciences<br>
-        Haidian district, Beijing, China<br>
+        office at 1011F,<br>
+		NO. 6, Kexueyuan South Road, Zhongguancun, <br>
+        Haidian district, Beijing, P.R.China 100190 <br>
+		Email: xiebiwei(at)ict(dot)ac(dot)cn
         </p>
 
         <p> 
@@ -29,9 +29,16 @@
         <b>  Google Scholar </b> 
         </a> 
         |&nbsp;
+
         <a href="https://github.com/puckbee"> 
 		<b>  GitHub </b>
 		</a>
+        |&nbsp;
+
+        <a href="cv.pdf"> 
+		<b> Curriculum Vitae </b>
+		</a>
+
         </p>
      </td>
 </tr>
@@ -39,15 +46,23 @@
 </table>
 
 <h2>My Mission:</h2>
-
 <p>
 
-My Mission is to bridge the gap between hardware and software, which means, to help the workloads understand the underlying hardware, and help the hardware to know what the workloads needs.<br><br>
+My Mission is to bridge the gap between hardware and software, which means, to help the workloads understand the underlying hardware better and vice versa. 
+I do research on the characteristics of workloads(ML algorithms, HPC applications, CNN, graph and etc.) and the advanced features of emerging/existing hardware(Xeon Phi, high-end GPU, ARM-neon, and etc), and try my best to squeeze the last ounce of performance. 
+
+<br><br>
 
 I'm an assistant professor working with <a href="http://acs.ict.ac.cn/baoyg/"><b>Prof. Yungang Bao</b></a> in the Center for Advanced Computer Systems (ACS) at Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS). 
 I received my Ph.D degree in 2018 at ICT, supervised by <a href="http://www.cs.utah.edu/~lizhang/"><b>Prof. Lixin Zhang</b></a> and <a href="http://prof.ict.ac.cn/jfzhan/"><b>Prof. Jianfeng Zhan</b></a>, and my master degree at Beijing University of Technology in 2012, supervised by <a href="https://www.linkedin.com/in/jingsha-he-2a073182/"><b>Prof. Jingsha He</b></a>.
 I acquired my bachelor degree at Hebei University of Science and Technology in 2009.
 In addition to my advisor, I also work closely with <a href="http://www.cs.wm.edu/~xl10/"><b>Prof. Xu Liu</b></a>, <a href="https://scholar.google.com/citations?user=aMUhz_oAAAAJ"><b>Prof. Sally A.McKee</b></a>, and <a href="http://www.cs.princeton.edu/~zhenj/"><b>Dr. Zhen Jia</b></a><br><br>
+
+In the following several years, I will focus on studying computer architecuture and chip design.
+I'm fresh to computer architecuture, but always keep moving with great enthusiasm.
+I believe that my background, which is also my advantage, on workloads characterization and performance optimizatin will provide me novel perspectives in computer architecture design. 
+
+<br><br>
 
 My research interests include: benchmarking, workload characterization, performance optimization, operating system, and computer architecture design.
 </p>
@@ -80,31 +95,15 @@ My research interests include: benchmarking, workload characterization, performa
 </table>
 -->
 
-<b>PhiBench</b>: Understand the data analytics workloads on x86 based many-core processors  (2014~2016)
+
+<b> HPConv: high performance winograd-based convolution (2017 ~ Now) </b>
 <table  border="0" cellpadding="0" width="100%" style="border-spacing: 0 6px; line-height:14pt;">
 	<tbody>
     <tr style="border-width: 1px">
  		<td>
  			<table style="width: 100%;"><tbody><tr><td style="width: 100%; text-align: left;">
-				My Mission is to bridge the gap between hardware and software, which means, to help the workloads understand the underlying hardware, and help the hardware to know what the workloads needs.<br><br>
- 			</td>
-			<td style="width: 10px;">
- 			</td>
- 			</tr></tbody></table>			
- 		</td>
-    </tr>
-    </tbody>
-   </tbody>
-</table>
-
-
-<b>H-OS</b>: Understand the data analytics workloads on x86 based many-core processors  (2014~2016)
-<table  border="0" cellpadding="0" width="100%" style="border-spacing: 0 6px; line-height:14pt;">
-	<tbody>
-    <tr style="border-width: 1px">
- 		<td>
- 			<table style="width: 100%;"><tbody><tr><td style="width: 100%; text-align: left;">
-				My Mission is to bridge the gap between hardware and software, which means, to help the workloads understand the underlying hardware, and help the hardware to know what the workloads needs.<br><br>
+			This project aims at a high performance implementation of winograd-based convolution, considering sparse, cross-layer data fusion, and strassen based matrix multiplication(MM). 
+			HPConv is preliminary designed for inference-convolution and will be extended to traing-convolution in the future.
  			</td>
 			<td style="width: 10px;">
  			</td>
@@ -117,6 +116,139 @@ My research interests include: benchmarking, workload characterization, performa
 
 
 
+<b>SparseLib: high performance library for sparse problems  (2017 ~ Now) </b>
+<table  border="0" cellpadding="0" width="100%" style="border-spacing: 0 6px; line-height:14pt;">
+	<tbody>
+    <tr style="border-width: 1px">
+ 		<td>
+ 			<table style="width: 100%;"><tbody><tr><td style="width: 100%; text-align: left;">
+			Numerous applications rely on sparse linear algebra methods or can be cast as sparse problems.
+			SparseLib focuses on exploiting architectural advances on emerging hardware (wider SIMD lane on Xeon Phi; more processing unit on GPU;...) for various sparse related basic operations, like SpMV, SpMM, sparseFFT, and etc.
+ 			</td>
+			<td style="width: 10px;">
+ 			</td>
+ 			</tr></tbody></table>			
+ 		</td>
+    </tr>
+    </tbody>
+   </tbody>
+</table>
+
+
+<b>PhiBench: Understanding the data analytics workloads on x86 based many-core processors  (2014 ~ 2016) </b>
+<table  border="0" cellpadding="0" width="100%" style="border-spacing: 0 6px; line-height:14pt;">
+	<tbody>
+    <tr style="border-width: 1px">
+ 		<td>
+ 			<table style="width: 100%;"><tbody><tr><td style="width: 100%; text-align: left;">
+			The first release of PhiBench consists of eight data analytics workloads, which are delicately optimized on Intel Xeon Phi, an x86 based many-core processor.
+			We hope that PhiBench is useful for researchers that are interested in understanding data analytics workloads on Intel Xeon Phi. 
+ 			</td>
+			<td style="width: 10px;">
+ 			</td>
+ 			</tr></tbody></table>			
+ 		</td>
+    </tr>
+    </tbody>
+   </tbody>
+</table>
+
+<b>mobile-Tracking: optimizing body-tracking algorithms on mobile platform  (2014 ~ 2015)</b>
+<table  border="0" cellpadding="0" width="100%" style="border-spacing: 0 6px; line-height:14pt;">
+	<tbody>
+    <tr style="border-width: 1px">
+ 		<td>
+ 			<table style="width: 100%;"><tbody><tr><td style="width: 100%; text-align: left;">
+			In this project, we optimize a HOG+FFT based tracking algorithm on NVIDIA TK1. The raw code is written in C/Matlab. We need to investigate the hotspot and accelerate it through parallelization and vectorization. 
+ 			</td>
+			<td style="width: 10px;">
+ 			</td>
+ 			</tr></tbody></table>			
+ 		</td>
+    </tr>
+    </tbody>
+   </tbody>
+</table>
+
+
+
+<b>xMem: Enlarging the memory on co-processors with host memory (2013 ~ 2015)</b>
+<table  border="0" cellpadding="0" width="100%" style="border-spacing: 0 6px; line-height:14pt;">
+	<tbody>
+    <tr style="border-width: 1px">
+ 		<td>
+ 			<table style="width: 100%;"><tbody><tr><td style="width: 100%; text-align: left;">
+			Memory capacity on many co-processors is limited, and unlike host memory, it's hard to increase. In this project, rarely used data on co-processors will be swapped to host memory. Different from classical swap mechanism, swap partition in this project is writable, and can be used for communication between host and co-processors.
+ 			</td>
+			<td style="width: 10px;">
+ 			</td>
+ 			</tr></tbody></table>			
+ 		</td>
+    </tr>
+    </tbody>
+   </tbody>
+</table>
+
+<b>pQEMU: Parallel version of QEMU (2012 ~ 2013)</b>
+<table  border="0" cellpadding="0" width="100%" style="border-spacing: 0 6px; line-height:14pt;">
+	<tbody>
+    <tr style="border-width: 1px">
+ 		<td>
+ 			<table style="width: 100%;"><tbody><tr><td style="width: 100%; text-align: left;">
+			QEMU is serial, even when it emulates multiple processors and runs on a multi-core processor. pQEMU aims at accelerating QEMU through multi-threading.
+ 			</td>
+			<td style="width: 10px;">
+ 			</td>
+ 			</tr></tbody></table>			
+ 		</td>
+    </tr>
+    </tbody>
+   </tbody>
+</table>
+
+
+<h2>in Preparation:</h2>
+<table id="pubList" border="0" cellpadding="0" width="100%" style="border-spacing: 0 6px; line-height:14pt;">
+	<tbody>	
+	<tr style="border-width: 1px">
+		<td><img src="4.png" height = "270" width = "400" ></td>
+		<td>
+		<table style="width: 100%;"><tbody><tr><td style="width: 100%; text-align: left;">
+			<p>
+			<b>Biwei Xie</b>, Zhen Jia, Wanling Gao, Jianfeng Zhan, Yungang Bao <br>
+			<b>The Impact of Data Pattern on SpMV performance</b> <br>
+			<br>
+			</p>
+			</td><td style="width: 10px;">
+			</td>
+			</tr>
+	        </tbody>
+		</table>
+		</td>
+	</tr>
+</tbody>	
+	</table>
+
+<table id="pubList" border="0" cellpadding="0" width="100%" style="border-spacing: 0 6px; line-height:14pt;">
+	<tbody>	
+	<tr style="border-width: 1px">
+		<td><img src="7.png" height = "270" width = "400" ></td>
+		<td>
+		<table style="width: 100%;"><tbody><tr><td style="width: 100%; text-align: left;">
+			<p>
+			 Xinhui Tian,<b>Biwei Xie</b>, Jianfeng Zhan <br>
+			<b>Cymbalo: An Efficient Graph ProcessingFramework for Machine Learning</b> <br>
+			<br>
+			</p>
+			</td><td style="width: 10px;">
+			</td>
+			</tr>
+	        </tbody>
+		</table>
+		</td>
+	</tr>
+</tbody>	
+	</table>
 
 <h2>Publications:</h2>
 <b>2018</b>
@@ -223,38 +355,20 @@ My research interests include: benchmarking, workload characterization, performa
    </tbody>
 </table>
 
-<h2>in Preparation:</h2>
-<table id="pubList" border="0" cellpadding="0" width="100%" style="border-spacing: 0 6px; line-height:14pt;">
-	<tbody>	
-	<tr style="border-width: 1px">
-		<td><img src="4.png" height = "270" width = "400" ></td>
-		<td>
-		<table style="width: 100%;"><tbody><tr><td style="width: 100%; text-align: left;">
-			<p>
-			<b>Biwei Xie</b>, Zhen Jia, Wanling Gao, Jianfeng Zhan, Yungang Bao <br>
-			<b>The Impact of Data Pattern on SpMV performance</b> <br>
-			<br>
-			</p>
-			</td><td style="width: 10px;">
-			</td>
-			</tr>
-	        </tbody>
-		</table>
-		</td>
-	</tr>
-</tbody>	
-	</table>
 
-<h2>Patent:</h2>
+
+
+
+<h2>Patents:</h2>
 <ul>
 <li><a href="https://patents.google.com/patent/EP3104275A4/en"> EP3104275A4</a>, Data processing method, device and system; Lixin Zhang and <b>Biwei Xie</b>; Huawei Technologies Co., Ltd.
 </li>
 </ul>
 
  
-<h2>Academic Services:</h2>
+<h2>Professional Services:</h2>
 <ul>
-<li>Sponsorship Chair of Bench'18 </li>
+<li>Sponsorship Chair of Benchmarking, Measuring, and Optimizing (Bench), 2018 </li>
 <li>External Reviewer of Parallel Architectures and Compilation Techniques (PACT), 2018</li>
 <li>Reviewer of Transactions on Parallel and Distributed Systems (TPDS), 2018</li>
 </ul>
