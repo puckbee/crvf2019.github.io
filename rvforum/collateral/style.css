@@ -507,7 +507,7 @@ display:block;//使用hover，当鼠标移动到对应的一级菜单上是显�
 #footer-content {
     border-top: 1px solid #ccc;
     overflow: hidden;
-    width: 980px;
+    width: 882px;
     margin: auto auto;
     padding: 0px;
     color: #000000;
@@ -538,6 +538,7 @@ display:block;//使用hover，当鼠标移动到对应的一级菜单上是显�
     display: inline-block;
     margin: 0 5px;
     list-style: none;
+    align-items: center;
 }
 
 .noborder {
